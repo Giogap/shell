@@ -3,7 +3,7 @@
 
 i=0
 
-until [ $1 -gt 10 ]
+until [ $i -gt 10 ]
 do
 echo "Best School"
 i=$((i + 1))
