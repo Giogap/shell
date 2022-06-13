@@ -2,7 +2,7 @@
 #Write a Bash script that displays Best School 10 times an hi in 9
 i=10
 
-while [ $i -gt 0 ]
+while [ $i -gt 1 ]
 do
 if (i=9)
 then
