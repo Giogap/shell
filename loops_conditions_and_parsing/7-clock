@@ -10,6 +10,6 @@ while [ $hour -lt 13 ]; do
         echo "$min"
         let min+=1
     done
-    let hour+=1
+    ((hour++))
     
 done
