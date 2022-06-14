@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#bad luck - good luck - Best School
+
+i=10
+
+while [ $i -gt 1 ];do
+    echo "Best School"
+    if [ $i = 7 ]; then
+        echo "bad luck"
+    elif [ $i = 3 ]; then
+	echo "good luck"
+    fi
+    i=$((i - 1))
+done
