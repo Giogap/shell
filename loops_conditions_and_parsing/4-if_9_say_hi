@@ -5,11 +5,9 @@ i=10
 
 while [ $i -gt 1 ]
 do
-if [ $i -eq 9 ]
-then
-echo "Hi"
-else
 echo "Best School"
+if [ $i -eq 9 ]
+echo "Hi"
 fi
 i=$((i - 1))
 done
