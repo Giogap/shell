@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 #Write a Bash script that displays Best School 10 times an in 9 line Hi
 
-COUNTER=0
-while [ $COUNTER -lt 11 ]
+i=10
+
+while [ $i -gt 0 ]
 do
-    if [ $COUNTER = 9 ]
-    then
-        echo "Hi"
-    else
-        echo "Holberton School"
-    fi
-    let COUNTER+=1
+if [ $i = 2 ]
+then
+    echo "Hi"
+else
+    echo "Holberton School"
+fi
+    i=$((i - 1))
 done
