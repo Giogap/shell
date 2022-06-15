@@ -5,7 +5,7 @@ while true
 do
 	echo "To infinity and beyond"
 	sleep 2
-	trap echo "I hate the kill command"; sudo rm /var/run/.pid; exit SIGTERM
+	trap echo "I hate the kill command"; sudo rm /var/run/myscript.pid; exit SIGTERM
 
 
 done	
