@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #show tour bash
 
-pgrep
+pgrep -axuf
