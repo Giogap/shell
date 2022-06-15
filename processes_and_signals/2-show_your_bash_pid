@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#no use pgrep
+# shellcheck
+
+ps -axuf | grip bash
