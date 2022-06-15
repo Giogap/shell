@@ -1,2 +1,9 @@
 #!/usr/bin/env bash
 #killing it with ctrl+c
+
+while true
+do
+
+
+
+done	
