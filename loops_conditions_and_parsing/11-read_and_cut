@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#the content of the file /etc/passwd
+
+LREAD="/etc/passwd"
+
+while read LREAD
+do
+	echo ${LREAD}
+
+
+done
