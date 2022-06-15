@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 #To infinity and beyond indefinitely
 
+trap "echo 'I am invincible!!!'" SIGTERM SIGINT
+
 for ((i=1; i>0; i++))
 do
 	echo "To infinity and beyond"
 	sleep 2
-	killall "I am invincible!!!"
 done
