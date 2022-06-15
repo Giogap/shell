@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #gig the data
 
-awk '{ print $1 " " $9 }' apache-acces.log | sort -k 5 -n | uniq 
+awk '{ print $1 " " $9 }' apache-access.log | uniq 
