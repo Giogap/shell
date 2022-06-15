@@ -1,2 +1,8 @@
 #!/usr/bin/env bash
 #don't stop
+
+for ((i=1; i>0; i++))
+do
+	echo "To infinity and beyond"
+	kill -9
+done
