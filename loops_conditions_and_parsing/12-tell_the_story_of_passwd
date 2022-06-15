@@ -6,4 +6,4 @@ LREAD="/etc/passwd"
 while IFS=":" read -r LREAD
 do
 	echo "${LREAD} | cut -d: -f1,3,6"
-done < $LREAD
+done < /etc/passwd
