@@ -5,6 +5,5 @@ LREAD="/etc/passwd"
 
 while IFS=":" read -r LREAD
 do
-
-
+	echo ${LREAS}
 done
