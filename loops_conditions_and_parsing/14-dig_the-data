@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#gig the data
+
+awk '{ print $1 " " $9 }' | sort | uniq 
