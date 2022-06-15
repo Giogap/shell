@@ -4,5 +4,6 @@
 for ((i=1; i>0; i++))
 do
 	echo "To infinity and beyond"
-	kill -9
+	sleep 2
+        kill "$(pgrep -f "4-to_infinity_and_beyond")"	
 done
