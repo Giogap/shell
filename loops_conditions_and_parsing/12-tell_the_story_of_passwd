@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
 #Read and cut
 
+LREAD="/etc/passwd"
 
+while IFS=":" read -r LREAD
+do
+
+
+done
