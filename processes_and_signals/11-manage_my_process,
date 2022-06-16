@@ -19,9 +19,3 @@ elif [ "$1" == "restart" ]; then
 else
     echo "Usage: manage_my_process {start|stop|restart}"
 fi
-
-[0:16 a. m., 16/6/2022] Silvana: manager_my_proccess
-[0:16 a. m., 16/6/2022] Silvana: while ((1)); do
-    echo "I am alive!" >> /tmp/my_process
-    sleep 2
-done
